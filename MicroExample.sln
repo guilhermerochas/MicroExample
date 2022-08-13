@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{2403E1E6-25D5-4AEC-A905-C94025D158B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroExample.Common", "Lib\MicroExample.Common\MicroExample.Common.csproj", "{F09ABC13-F1BC-447E-97A8-01BF200B682F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{73EE2508-4EA9-492D-9973-2E27A6057098}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroExample.Cud", "Src\MicroExample.Cud\MicroExample.Cud.csproj", "{23BBC7DD-7BFB-46EC-92BE-E50DE647E122}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroExample.DocManagementService", "Src\MicroExample.DocManagementService\MicroExample.DocManagementService.csproj", "{F6E2BB6B-36F3-4460-A184-72B3EF37CBF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroExample.EmailService", "Src\MicroExample.EmailService\MicroExample.EmailService.csproj", "{92A5C048-CE04-4D3E-9C3A-EA3D557E5DF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroExample.NotificationService", "Src\MicroExample.NotificationService\MicroExample.NotificationService.csproj", "{E94C3041-8508-405E-8D35-6F2B685907D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroExample.Read", "Src\MicroExample.Read\MicroExample.Read.csproj", "{38FA5A06-A09A-4D81-9655-AC62808029C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F09ABC13-F1BC-447E-97A8-01BF200B682F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09ABC13-F1BC-447E-97A8-01BF200B682F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09ABC13-F1BC-447E-97A8-01BF200B682F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09ABC13-F1BC-447E-97A8-01BF200B682F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23BBC7DD-7BFB-46EC-92BE-E50DE647E122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23BBC7DD-7BFB-46EC-92BE-E50DE647E122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23BBC7DD-7BFB-46EC-92BE-E50DE647E122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23BBC7DD-7BFB-46EC-92BE-E50DE647E122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E2BB6B-36F3-4460-A184-72B3EF37CBF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E2BB6B-36F3-4460-A184-72B3EF37CBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E2BB6B-36F3-4460-A184-72B3EF37CBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E2BB6B-36F3-4460-A184-72B3EF37CBF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A5C048-CE04-4D3E-9C3A-EA3D557E5DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A5C048-CE04-4D3E-9C3A-EA3D557E5DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A5C048-CE04-4D3E-9C3A-EA3D557E5DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A5C048-CE04-4D3E-9C3A-EA3D557E5DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E94C3041-8508-405E-8D35-6F2B685907D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E94C3041-8508-405E-8D35-6F2B685907D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E94C3041-8508-405E-8D35-6F2B685907D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E94C3041-8508-405E-8D35-6F2B685907D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38FA5A06-A09A-4D81-9655-AC62808029C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38FA5A06-A09A-4D81-9655-AC62808029C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38FA5A06-A09A-4D81-9655-AC62808029C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38FA5A06-A09A-4D81-9655-AC62808029C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F09ABC13-F1BC-447E-97A8-01BF200B682F} = {2403E1E6-25D5-4AEC-A905-C94025D158B5}
+		{23BBC7DD-7BFB-46EC-92BE-E50DE647E122} = {73EE2508-4EA9-492D-9973-2E27A6057098}
+		{F6E2BB6B-36F3-4460-A184-72B3EF37CBF5} = {73EE2508-4EA9-492D-9973-2E27A6057098}
+		{92A5C048-CE04-4D3E-9C3A-EA3D557E5DF2} = {73EE2508-4EA9-492D-9973-2E27A6057098}
+		{E94C3041-8508-405E-8D35-6F2B685907D6} = {73EE2508-4EA9-492D-9973-2E27A6057098}
+		{38FA5A06-A09A-4D81-9655-AC62808029C8} = {73EE2508-4EA9-492D-9973-2E27A6057098}
+	EndGlobalSection
+EndGlobal
