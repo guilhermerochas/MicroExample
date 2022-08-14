@@ -1,4 +1,4 @@
-namespace MicroExample.Read;
+namespace Api;
 
 public class WeatherForecast
 {

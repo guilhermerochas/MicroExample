@@ -1,4 +1,4 @@
-namespace MicroExample.Cud;
+namespace Api;
 
 public class WeatherForecast
 {
